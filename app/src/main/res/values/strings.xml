@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="home">HOME</string>
+    <string name="bookings">BOOKINGS</string>
+    <string name="account">ACCOUNT</string>
+    <string name="back_arrow">back_arrow</string>
+
+
+</resources>

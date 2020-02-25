@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#2f1c80</color>
+    <color name="colorPrimaryDark">#2f1c80</color>
+    <color name="colorAccent">#2f1c80</color>
+    <color name="appThemeColor">#2f1c80</color>
+
+    <color name="pageBackgroundColor">#0F151B</color>
+    <color name="textColor">#FFFFFF</color>
+    <color name="textColorBlack">#000</color>
+    <color name="textColorFeature">#383838</color>
+    <color name="textColorGrey">#5a5a5a</color>
+    <color name="textColorGreyLight">#727272</color>
+    <color name="textColorWhite">#fff</color>
+
+    <!-- Rooms page -->
+    <!--<color name="roomPageHomeHeaderViewBackground">#16222e</color>-->
+    <color name="roomContentAddressColor">#606569</color>
+    <color name="feedbackPageInputBackgroundColor">#141a20</color>
+    <color name="feedbackPageInputHintColor">#626569</color>
+    <color name="darkColor">#0f151b</color>
+
+
+    <color name="viewColorGrey">#d0d0d0</color>
+    <color name="colorBackground">#1E3347</color>
+
+    <color name="custom_background">#fff</color>
+    <color name="custom_background_today">#000</color>
+    <color name="custom_background_disabled">#fff</color>
+    <color name="custom_text_selected">@color/appThemeColor</color>
+    <color name="custom_text_inactive">#7f778088</color>
+    <color name="transparent">#00000000</color>
+    <color name="cabPageStrokeColorEdit">#e6e6e6</color>
+    <color name="viewBottomBarColor">#4d000000</color>
+
+</resources>
