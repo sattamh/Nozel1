@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".tool_bar_lt"></activity>
+        <activity android:name=".Edit_profile"></activity>
+        <activity android:name=".register" />
+        <activity android:name=".login" />
+        <activity android:name=".tool_bar_lt" />
         <activity android:name=".bottom_bar_lt" />
         <activity android:name=".main_activity">
             <intent-filter>

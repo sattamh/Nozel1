@@ -29,7 +29,8 @@
             android:layout_marginVertical="40dp"
             android:layout_marginLeft="80dp"
             android:layout_marginRight="150dp"
-            android:text="Search for Hotels, Places" />
+            android:hint="Search for Hotels, Places"
+            android:text="" />
 
         <TextView
             android:id="@+id/check_in"
