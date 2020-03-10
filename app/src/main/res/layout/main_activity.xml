@@ -26,7 +26,7 @@
             android:id="@+id/searchtxtv"
             android:layout_width="248dp"
             android:layout_height="50dp"
-            android:layout_marginVertical="40dp"
+            android:layout_marginVertical="60dp"
             android:layout_marginLeft="80dp"
             android:layout_marginRight="150dp"
             android:hint="Search for Hotels, Places"
@@ -36,73 +36,74 @@
             android:id="@+id/check_in"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginVertical="170dp"
+            android:layout_marginVertical="150dp"
             android:layout_marginLeft="80dp"
             android:layout_marginRight="150dp"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="check_in"
+            android:textStyle="bold"
             android:textSize="18sp" />
 
         <TextView
             android:id="@+id/check_out"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginVertical="170dp"
+            android:layout_marginVertical="150dp"
             android:layout_marginLeft="220dp"
             android:layout_marginRight="80dp"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="check_out"
+            android:textStyle="bold"
             android:textSize="18sp" />
 
         <Button
             android:id="@+id/searchbtn"
-            android:layout_width="100dp"
+            android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:layout_marginVertical="450dp"
-            android:layout_marginLeft="160dp"
-            android:layout_marginRight="100dp"
+            android:layout_marginVertical="230dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="18dp"
             android:text="Search" />
 
-        <CalendarView
-            android:id="@+id/calendarView"
-            android:layout_width="181dp"
-            android:layout_height="208dp"
-            android:layout_marginVertical="200dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="150dp" />
-
-        <CalendarView
-            android:id="@+id/calendarView2"
-            android:layout_width="181dp"
-            android:layout_height="208dp"
-            android:layout_marginVertical="200dp"
-            android:layout_marginLeft="200dp"
-            android:layout_marginRight="20dp" />
         <TextView
-            android:id="@+id/roomnum"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginVertical="100dp"
+            android:id="@+id/txtvcheckinDate"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:text="@string/checkin_date"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/textColorBlack"
+            android:layout_marginVertical="190dp"
             android:layout_marginLeft="80dp"
-            android:layout_marginRight="150dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Room"
-            android:textSize="18sp" />
+            android:layout_marginRight="150dp" />
+        <TextView
+            android:id="@+id/txttokeepconnected"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="To keep conected with us please: "
+            android:textSize="13dp"
+            android:textColor="@color/textColorGrey"
+            android:layout_marginVertical="280dp"
+            android:layout_marginLeft="70dp"
+            />
 
         <TextView
-            android:id="@+id/gustnum"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginVertical="100dp"
+            android:id="@+id/txtvcheckoutDate"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/textColorBlack"
+            android:text="@string/checkout_date"
+            android:layout_marginVertical="190dp"
             android:layout_marginLeft="220dp"
-            android:layout_marginRight="80dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Guests"
-            android:textSize="18sp" />
+            android:layout_marginRight="20dp" />
 
     </FrameLayout>
 
