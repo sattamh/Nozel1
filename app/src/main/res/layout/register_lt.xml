@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/unselected_background"
     tools:context=".register">
 
     <LinearLayout
@@ -47,7 +48,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="200dp"
         android:layout_marginBottom="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
@@ -69,6 +70,14 @@
             android:drawablePadding="5dp"
             android:hint="@string/mobile"
             android:inputType="phone"
+            android:textStyle="italic" />
+        <EditText
+            android:id="@+id/edtAge"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:drawablePadding="5dp"
+            android:hint="@string/age"
+            android:inputType="number"
             android:textStyle="italic" />
 
 

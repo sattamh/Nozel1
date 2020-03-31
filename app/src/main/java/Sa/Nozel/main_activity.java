@@ -3,9 +3,12 @@ package Sa.Nozel;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.media.Image;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.app.DatePickerDialog;
 import android.widget.DatePicker;
@@ -21,12 +24,16 @@ public class main_activity extends AppCompatActivity implements DatePickerDialog
     private TextView checkoutDate;
     Calendar mCurrentDate;
     int day, month, year;
+   private ImageButton imbsignin;
 
 
+    @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_activity);
+        getSupportActionBar().hide();
+
         mCurrentDate= Calendar.getInstance();
         checkinDate = findViewById(R.id.txtvcheckinDate);
         checkoutDate = findViewById(R.id.txtvcheckoutDate);
@@ -41,6 +48,16 @@ public class main_activity extends AppCompatActivity implements DatePickerDialog
         final String checkout=day+"/"+month+"/"+year;
         checkoutDate.setText(checkout);
 
+       imbsignin= findViewById(R.id.imbsignin);
+       imbsignin.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View v) {
+               Intent intlog = new Intent(main_activity.this, login.class);
+               startActivity(intlog);
+
+           }
+
+       });
 
         checkoutDate.setOnClickListener(new View.OnClickListener() {
             @Override

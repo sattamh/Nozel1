@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/unselected_background"
     android:fillViewport="true"
     tools:ignore="Overdraw"
     tools:context=".Edit_profile">
@@ -74,11 +75,11 @@
 
 
         <EditText
-            android:id="@+id/edtEmail"
+            android:id="@+id/edtAgeedtprofile"
             android:layout_width="match_parent"
             android:layout_height="45dp"
             android:drawablePadding="5dp"
-            android:hint="@string/prompt_email"
+            android:hint="@string/age"
             android:inputType="textEmailAddress"
             android:textStyle="italic" />
 

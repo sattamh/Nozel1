@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/unselected_background"
     tools:context=".login">
 
     <ScrollView
@@ -26,7 +27,7 @@
 
 
             <EditText
-                android:id="@+id/edtUsernameLogin"
+                android:id="@+id/edtemaillogin"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:layout_marginTop="40dp"
@@ -45,7 +46,7 @@
                 android:textStyle="italic" />
 
             <Button
-                android:id="@+id/btnLogin"
+                android:id="@+id/btnsignin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -71,7 +72,7 @@
             <TextView
                 android:id="@+id/txtforgotpassword"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
                 android:layout_marginTop="23dp"
                 android:fontFamily="@font/roboto_regular"
                 android:gravity="center"

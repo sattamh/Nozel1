@@ -14,6 +14,7 @@
     <string name="action_sign_in_short">Sign in</string>
     <string name="action_register">Rigister</string>
     <string name="action_save">Save</string>
+    <string name="action_submit">Submit</string>
     <string name="checkout_date">10/03/2020</string>
     <string name="checkin_date">09/03/2020</string>
     <string name="welcome">"Welcome !"</string>
@@ -23,6 +24,17 @@
     <string name="login_hello">Hello there!</string>
     <string name="edit_profile">Edit Your Profile</string>
     <string name="register_create_account">Create an account</string>
+    <string name="label_forgot_password_layout">Enter your email address and we’ll send you\ninstructions to reset your password.</string>
+    <string name="forgot_password">Forgot your Password ?</string>
+    <string name="nozel_logo">nozel_Logo</string>
+    <string name="logout">Logout</string>
+    <string name="right_arrow">right_arrow</string>
+    <string name="settings">settings</string>
+    <string name="change_password">Change Password</string>
+    <string name="user_profile">User Profile</string>
+    <string name="version">Version</string>
+    <string name="_1_0">1.0</string>
+    <string name="age">Age</string>
 
 
 </resources>
